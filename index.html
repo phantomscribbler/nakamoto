@@ -1,15 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Welcome to the Gallery</title>
+  <meta charset="UTF-8">
+  <title>Phantom Scribbler</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      color: #000000;
+      font-family: "Times New Roman", Times, serif;
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 0 20px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .quote {
+      font-size: 28px;
+      font-style: italic;
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 40px;
+      margin-bottom: 10px;
+    }
+    .button-container {
+      text-align: center;
+      margin-top: 40px;
+    }
+    a.button {
+      padding: 6px 12px;
+      font-size: 15px;
+      border: 1px solid #000;
+      text-decoration: none;
+      color: #000;
+    }
+    a.button:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
 </head>
-<body style="text-align:center; font-family:sans-serif; background-color:#f0f0f0;">
-  <h1>Welcome to the Gallery</h1>
-  <p>Step into a curated collection of exclusive digital art.</p>
-  <img src="https://placekitten.com/400/300" alt="Art" style="max-width:100%; height:auto;">
-  <br><br>
-  <a href="gallery.html">
-    <button style="padding:10px 20px; font-size:16px;">Enter the Gallery</button>
-  </a>
+<body>
+  <div class="quote">
+    I never set out to collect digital art.<br>
+    I just kept finding work that deserved to be remembered.
+  </div>
+
+  <h2>About Me:</h2>
+  <p>
+    I was never really into art. I cared about cryptography. About how digital ownership could be real. I grew up on internet forums and memes. That’s the culture I understand. Fast, weird, funny in ways that don’t always make sense.
+  </p>
+
+  <h2>About This Collection:</h2>
+  <p>
+    Not a typical gallery. Nothing here is for sale. Works chosen based on instinct.
+  </p>
+
+  <div class="button-container">
+    <a href="gallery.html" class="button">Enter the Collection</a>
+  </div>
 </body>
 </html>
